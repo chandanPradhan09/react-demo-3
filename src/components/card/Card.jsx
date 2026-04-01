@@ -1,5 +1,5 @@
 // Import CSS Module styles (scoped locally to avoid class name conflicts)
-import styles from "./card.module.css";
+import styles from "./Card.module.css";
 
 // ── Component Definition ───────────────────────────────────────────────────────
 /**
