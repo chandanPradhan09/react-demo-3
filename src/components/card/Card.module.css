@@ -1,0 +1,46 @@
+.container {
+    border: 2px solid #c7d7f0;
+    border-radius: 18px;
+    padding: 30px 34px;
+    box-shadow:
+        0 4px 20px rgba(26, 86, 219, 0.1),
+        0 1px 4px rgba(0, 0, 0, 0.06);
+    background: #ffffff;
+    max-width: 380px;
+    font-family: "Georgia", serif;
+    transition:
+        transform 0.22s ease,
+        box-shadow 0.22s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 40px rgba(26, 86, 219, 0.18);
+}
+
+.title {
+    font-weight: bold;
+    color: #1a56db;
+    font-size: 1.45rem;
+    margin: 0 0 10px;
+    letter-spacing: -0.3px;
+}
+
+.description {
+    color: #4a5568;
+    font-size: 0.94rem;
+    line-height: 1.65;
+    margin: 0 0 20px;
+}
+
+.badge {
+    display: inline-block;
+    background: #ebf4ff;
+    color: #1a56db;
+    font-size: 0.72rem;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-family: monospace;
+    letter-spacing: 0.3px;
+    border: 1px solid #c7d7f0;
+}
